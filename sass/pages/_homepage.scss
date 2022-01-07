@@ -35,6 +35,11 @@
     &__picto{
       align-items: center;
       font-size: 25px;
+      color:black; /* CODE à voir */
+      transition: color 5ms;
+      &:hover{
+        color: red
+      }
     }
 }
 
@@ -67,14 +72,23 @@
     margin-bottom: auto;
 
   }
-  li{
+  &__li{
     //border: 5px solid $clr-background-nav-li;
     @include backgroundPrincipale($color-primary, 0.1%);
     border-radius: 20px;
     width: 85%;
     margin: auto;
     margin-bottom: 10px;
+    box-shadow: 4px 5px 7px 1px lightgrey;
+    &:hover{
+      background-color: rgba(147, 86, 220, 0.1);
+    }
+    &:hover .nav__picto{
+      color: #9356DC;
+    }
+  
   }
+    
   ol{
     padding: 0px;
     list-style-type:circle;

@@ -52,7 +52,11 @@
     background: $clr-btn-header;
     padding: 15px;
     color: white;
-
-
+    box-shadow: 4px 5px 7px 1px lightgrey;
+    &:hover{
+      filter: brightness(120%);
+      
+    }
   }
+
 }
