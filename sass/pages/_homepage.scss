@@ -33,15 +33,29 @@
       border-radius: 10px 10px 0 0;
   }
     &__picto{
+      display: flex;
       align-items: center;
       font-size: 25px;
-      color:black; /* CODE à voir */
-      transition: color 5ms;
+      color:black;
+      transition:  all 10s ease-in ;/* marche pas */
       &:hover{
-        color: red
+        display:none;
+      }
+      &:hover +.picto2{
+        display:flex;
+        color: #c120c0; 
       }
     }
+    .picto2{
+      display:none;
+      align-items: center;
+      font-size: 25px;
+      background:white;
+    }
+    
 }
+
+
 
 .nav{
   display :flex;
