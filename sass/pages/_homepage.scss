@@ -8,7 +8,7 @@
   border-radius: 10px;
   margin-bottom: 25px;
   box-shadow: 4px 5px 7px 1px lightgrey;
-
+  
   &__h4{
     margin-bottom: 0px;
     margin-top: 5px;
@@ -26,41 +26,67 @@
   &__img{
       display:flex;
       align-items: center;
+      object-fit: cover;
       flex-wrap: wrap;
       width: 100%;
       height: 45vw;
       margin-bottom: 5px;
       border-radius: 10px 10px 0 0;
   }
+  
     &__picto{
       display: flex;
+      visibility:visible;
       align-items: center;
       font-size: 25px;
       color:black;
-      transition:  all 10s ease-in ;/* marche pas */
-      &:hover{
+      opacity:1;
+      transition: opacity 1s ;
+
+
+
+      /*&:hover{
         display:none;
       }
       &:hover +.picto2{
-        display:flex;
-        color: #c120c0; 
-      }
+        display: flex;
+        opacity: 1;
+        
+      }*/
     }
     .picto2{
-      display:none;
+      display:flex;
+      position: relative;
+      left: -25px;
       align-items: center;
       font-size: 25px;
-      background:white;
+      color:#c120cc;
+      opacity: 0;
+      transition: opacity 1s 500ms  ;
+      transform-origin: left;
+
     }
     
 }
+.testanimation{
+  display: flex;
+  align-items: center;  
 
+  &:hover .card__picto{
+    opacity:0;
+     }
+  &:hover  .picto2{
+    opacity: 1;
+  }
+
+}
 
 
 .nav{
   display :flex;
   flex-direction: column;
   width: 100%;
+  font-weight: bold;
   &__picto{
     display: flex;
     align-items: center;

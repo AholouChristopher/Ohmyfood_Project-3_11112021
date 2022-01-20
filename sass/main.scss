@@ -2,6 +2,7 @@
 @import "./utils/mixins";
 @import "./base/base";
 @import "./pages/homepage";
+@import "./pages/toute_les_autres_pages";
 @import "./layouts/header";
 @import "./layouts/footer";
 @import "./layouts/section";
@@ -23,5 +24,11 @@
   &__center{
     justify-content: center;
 
+  }
+  .align-items
+  {
+    &__center{
+      align-items: middle;
+    }
   }
 }
