@@ -9,7 +9,8 @@
     <script src="https://kit.fontawesome.com/a41e9403cf.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body class=container-menu>
+  
   <header class="header">
      <div class="row justify-content__center">
       <i style="display: flex; align-items: center; position:relative; left:-58px" class="fas fa-arrow-left"></i>  
@@ -17,36 +18,131 @@
      </div>
     <img src="public\images\restaurants\toa-heftiba-DQKerTsQwi0-unsplash.jpg" style="width: 100%; height: 250px ;object-fit: cover;" class=""></img>
   </header>
+
   <section class="menu">
     <div class="row justify-content__between">
       <h2>A la francaise </h2>
       <div class="card__picto row justify-content__center"><i class=" far fa-heart"></i></div>
     </div>
+    <!----entrée-->
     <h3 class="menu__titre">ENTREES</h3>
     <hr/>
-    <div class="card-Menu justify-content__between">
-        <div>
+    <div style="flex-wrap: nowrap;" class="card-Menu justify-content__between">
+        <div class="card-Menu__body">
           <h4 class="card__h4">Tartare de poulpe acidulé </h4>
-          <p class="card__p">Aux zests d'orange </p>
+          <div class="row justify-content__between">
+            <p class="card-Menu__p">Aux zests d'orange </p>
+            <span class="card-Menu__price">25€</span>
+          </div>
         </div>
-        <span class="card-Menu__price">25€</span>
-        <div class="rotate"></div>
+        <div class="rotate">
+          <span class="rotate-validate"><i class="fas fa-check-circle"></i></span>
+        </div>
     </div>
-      <div class="card-Menu justify-content__between">
-        <div>
-          <h4 class="card__h4">Velouté de légumes d'antan</h4>
-          <p class="card__p"> Carotte, panais, topinambour</p>
+    <div style="flex-wrap: nowrap;" class="card-Menu justify-content__between">
+      <div class="card-Menu__body">
+        <h4 class="card__h4">Velouté de légumes d'antan</h4>
+        <div class="row justify-content__between">
+          <p class="card-Menu__p">Carotte, panais, topinambour </p>
+          <span class="card-Menu__price">35€</span>
         </div>
-        <span class="card-Menu__price">35€</span>
       </div>
-      <div class="card-Menu justify-content__between">
-        <div>
-          <h4 class="card__h4">Soupe à l'oignon</h4>
-          <p class="card__p"> Revisitée</p>
-        </div>
+      <div class="rotate">
+        <span class="rotate-validate"><i class="fas fa-check-circle"></i></span>
+      </div>
+    </div>
+    <div style="flex-wrap: nowrap;" class="card-Menu justify-content__between">
+    <div class="card-Menu__body">
+      <h4 class="card__h4">Soupe à l'oignon </h4>
+      <div class="row justify-content__between">
+        <p class="card-Menu__p">Revisitée </p>
         <span class="card-Menu__price">25€</span>
       </div>
-  </section>
+    </div>
+    <div class="rotate">
+      <span class="rotate-validate"><i class="fas fa-check-circle"></i></span>
+    </div>
+    </div>
+      <!---------------plat-->
+    <h3 class="menu__titre">PLATS</h3>
+    <hr/>
+    <div style="flex-wrap: nowrap;" class="card-Menu justify-content__between">
+        <div class="card-Menu__body">
+          <h4 class="card__h4">Coquilles Saint-Jacques</h4>
+          <div class="row justify-content__between">
+            <p class="card-Menu__p">Accompagnées d'une purée de panais</p>
+            <span class="card-Menu__price">40€</span>
+          </div>
+        </div>
+        <div class="rotate">
+          <span class="rotate-validate"><i class="fas fa-check-circle"></i></span>
+        </div>
+    </div>
+    <div style="flex-wrap: nowrap;" class="card-Menu justify-content__between">
+      <div class="card-Menu__body">
+        <h4 class="card__h4">Magret de canard </h4>
+        <div class="row justify-content__between">
+          <p class="card-Menu__p">Et parmentier de pommes de terres</p>
+          <span class="card-Menu__price">35€</span>
+        </div>
+      </div>
+      <div class="rotate">
+        <span class="rotate-validate"><i class="fas fa-check-circle"></i></span>
+      </div>
+    </div>
+    <div style="flex-wrap: nowrap;" class="card-Menu justify-content__between">
+    <div class="card-Menu__body">
+      <h4 class="card__h4">Pigeonneau d'Ille-et-Vilaine </h4>
+      <div class="row justify-content__between">
+        <p class="card-Menu__p">Sur sont lit de gnocchis aux légumes </p>
+        <span class="card-Menu__price">44€</span>
+      </div>
+    </div>
+    <div class="rotate">
+      <span class="rotate-validate"><i class="fas fa-check-circle"></i></span>
+    </div>
+    </div>
+    <!------dessert-->
+    <h3 class="menu__titre">DESSERT</h3>
+    <hr/>
+    <div style="flex-wrap: nowrap;" class="card-Menu justify-content__between">
+        <div class="card-Menu__body">
+          <h4 class="card__h4">Pétales de violettes glacés</h4>
+          <div class="row justify-content__between">
+            <p class="card-Menu__p">Et purée de noisettes</p>
+            <span class="card-Menu__price">18€</span>
+          </div>
+        </div>
+        <div class="rotate">
+          <span class="rotate-validate"><i class="fas fa-check-circle"></i></span>
+        </div>
+    </div>
+    <div style="flex-wrap: nowrap;" class="card-Menu justify-content__between">
+      <div class="card-Menu__body">
+        <h4 class="card__h4">Fondant au chocolat </h4>
+        <div class="row justify-content__between">
+          <p class="card-Menu__p">Révisité</p>
+          <span class="card-Menu__price">22€</span>
+        </div>
+      </div>
+      <div class="rotate">
+        <span class="rotate-validate"><i class="fas fa-check-circle"></i></span>
+      </div>
+    </div>
+    <div style="flex-wrap: nowrap;" class="card-Menu justify-content__between">
+    <div class="card-Menu__body">
+      <h4 class="card__h4">Millefeuille croustillant</h4>
+      <div class="row justify-content__between">
+        <p class="card-Menu__p">Myrtilles est pate d'amande</p>
+        <span class="card-Menu__price">23€</span>
+      </div>
+    </div>
+    <div class="rotate">
+      <span class="rotate-validate"><i class="fas fa-check-circle"></i></span>
+    </div>
+    </div>
+  </section> 
+  <button class="header__btn btn--modif ">Commander</button>
   <footer class="footer">
     <img src="public\images\logo\ohmyfood@2x.svg" class="footer__img"></img>
     <ul>
