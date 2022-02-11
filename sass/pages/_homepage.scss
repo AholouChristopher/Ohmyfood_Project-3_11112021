@@ -44,18 +44,8 @@
       color:black;
       opacity:1;
       transition: opacity 1s ;
-
-
-
-      /*&:hover{
-        display:none;
-      }
-      &:hover +.picto2{
-        display: flex;
-        opacity: 1;
-        
-      }*/
     }
+    
     .picto2{
       display:flex;
       position: relative;
@@ -136,4 +126,72 @@
     list-style-type:circle;
   }
 
+}
+.X{
+  animation: fadein 500ms 4s ease-in-out backwards ;
+}
+
+.loader {
+  border-top: 16px solid #FF79DA;
+  border-right: 16px solid linear-gradient(#FF79DA,#9356DC );
+  border-bottom: 16px solid #9356DC;
+  border-left: 16px solid linear-gradient(#FF79DA,#9356DC );
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px 4px lightgrey;
+  width: 120px;
+  height: 120px;
+  animation: spin 3s linear backwards ;
+  position: fixed;
+  top: 100px;
+  opacity:0;
+}
+.pour-animation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bar{
+  height: 20px;
+  width: 500px;
+  background: #F8F8F8;;
+  border-radius: 25px;
+  box-shadow: 4px 5px 7px 1px lightgrey;
+  position: fixed;
+  opacity: 0;
+  top: 300px;
+  animation: animebar2 3s linear ;
+
+}
+.bar2{
+  height: 20px;
+  width: 100px;
+  background: linear-gradient(#FF79DA,#9356DC );
+  border-radius: 25px;
+  position: fixed;
+  opacity: 0;
+  animation: animebar 1s linear 3  alternate-reverse ;
+
+}
+
+@media screen and (min-width:988px) {
+  .carte-restaurant{
+    display: flex; 
+    justify-content: space-around;
+  }
+  .card{
+    width: 20%;
+  }
+  .card__img{
+    height: 14vw ; 
+  }
+  
+}
+@media screen and ( max-width : 768px){
+  .bar{
+    width: 50%;
+  }
+  .bar2{
+    width: 10%;
+  }
 }
