@@ -173,9 +173,7 @@ body {
 
 .loader {
   border-top: 16px solid #FF79DA;
-  border-right: 16px solid linear-gradient(#FF79DA, #9356DC);
   border-bottom: 16px solid #9356DC;
-  border-left: 16px solid linear-gradient(#FF79DA, #9356DC);
   border-radius: 50%;
   box-shadow: 4px 4px 4px 4px lightgrey;
   width: 120px;
@@ -473,9 +471,6 @@ section {
 }
 .justify-content__center {
   justify-content: center;
-}
-.justify-content .align-items__center {
-  align-items: middle;
 }
 
 /*# sourceMappingURL=style.css.map */
