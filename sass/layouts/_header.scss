@@ -4,13 +4,11 @@
   align-items: center;
   width: 100%;
   &__img{
+    display: flex;
+    align-items: center;
     width: 50%;
     margin-top: 20px;
     margin-bottom:20px;
-    display: flex;
-    align-items: center;
-
-
   }
   &__background{
     background: #EDEDED;
@@ -35,7 +33,6 @@
     font-size: 25px;
     text-align:center;
     font-weight: bold;
-
   }
   &__text{
     text-align:center;
@@ -54,9 +51,7 @@
     color: white;
     box-shadow: 4px 5px 7px 1px lightgrey;
     &:hover{
-      filter: brightness(120%);
-      
+      filter: brightness(120%);    
     }
   }
-
 }
