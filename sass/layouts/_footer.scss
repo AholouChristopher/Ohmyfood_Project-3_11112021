@@ -1,5 +1,5 @@
 .footer{
-@include backgroundPrincipale($color-primary, 75%);
+  @include backgroundPrincipale($color-primary, 75%);
   &__picto{
     display: flex;
     align-items: center;
@@ -8,14 +8,14 @@
   }
   &__img{
     width: 25%;
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
-    
-
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);    
   }
 }
+
 #mail{
   color: white;
 }
+
 footer{
   padding: 20px;
   line-height: 23px;
@@ -27,5 +27,4 @@ footer{
   li {
     margin-top:5px
   }
-
 }
