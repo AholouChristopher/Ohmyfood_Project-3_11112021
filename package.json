@@ -1,7 +1,7 @@
 {
   "name": "ohmyfood",
   "version": "1.0.0",
-  "description": "projet joka ",
+  "description": "projet Openclassrooms avec sass (sans JS) ",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
@@ -9,6 +9,6 @@
   "keywords": [
     "loulou"
   ],
-  "author": "chris",
+  "author": "christopher Aholou",
   "license": "ISC"
 }
