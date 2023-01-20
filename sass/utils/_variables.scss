@@ -4,7 +4,6 @@
 $clr-btn-header: linear-gradient(#FF79DA,#9356DC );
 $color-primary: #F8F8F8;
 
-
 @keyframes fadein {
     0%{
         opacity: 0;
@@ -18,10 +17,8 @@ $color-primary: #F8F8F8;
     100% {
         opacity: 1;
         transform: translateY(0px);
-
     }
 }
-
 @keyframes animebar {
     0%{
         opacity: 1;
@@ -30,28 +27,26 @@ $color-primary: #F8F8F8;
     70% {
         opacity: 1;
         transform: translatex(250%);
-
     }
     100% {
         opacity: 1;
         transform: translatex(400%);
-
-    }
-    
+    }    
 }
 @keyframes animebar2 {
     0%{
         opacity: 1;
     }
-
     100% {
         opacity: 1;
-
-    }
-    
+    }  
 }
-
 @keyframes spin {
-    0% { transform: rotate(0deg); opacity: 1; }
-    100% { transform: rotate(360deg); opacity:1 }
+    0% { 
+        opacity: 1; 
+        transform: rotate(0deg);
+    }
+    100% { 
+         opacity:1;
+         transform: rotate(360deg);}
   }
